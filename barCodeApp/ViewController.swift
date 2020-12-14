@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var barCodeTextField: UITextField!
-    let url = URL(string: Configuration.shared.apiUrl + "aa")!
+    let url = URL(string: Configuration.shared.apiUrl + "aabbb")!
 
     override func viewDidLoad() {
         super.viewDidLoad()
