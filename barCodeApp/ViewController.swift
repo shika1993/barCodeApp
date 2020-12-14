@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    @IBOutlet weak var barCodeTextField: UITextField!
     let url = URL(string: Configuration.shared.apiUrl)!
 
     override func viewDidLoad() {
@@ -18,6 +20,12 @@ class ViewController: UIViewController {
         print(url)
     }
 
-
+    
+    @IBAction func startURLSession(_ sender: UIButton) {
+        
+        
+        
+    }
+    
 }
 
