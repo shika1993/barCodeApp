@@ -13,6 +13,7 @@
 		3709E71F258796A700620BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3709E71D258796A700620BE6 /* Main.storyboard */; };
 		3709E721258796A800620BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3709E720258796A800620BE6 /* Assets.xcassets */; };
 		3709E724258796A800620BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3709E722258796A800620BE6 /* LaunchScreen.storyboard */; };
+		3709E72D2587A77E00620BE6 /* Configration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3709E72C2587A77E00620BE6 /* Configration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3709E720258796A800620BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3709E723258796A800620BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3709E725258796A800620BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3709E72C2587A77E00620BE6 /* Configration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3709E720258796A800620BE6 /* Assets.xcassets */,
 				3709E722258796A800620BE6 /* LaunchScreen.storyboard */,
 				3709E725258796A800620BE6 /* Info.plist */,
+				3709E72C2587A77E00620BE6 /* Configration.swift */,
 			);
 			path = barCodeApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3709E72D2587A77E00620BE6 /* Configration.swift in Sources */,
 				3709E71C258796A700620BE6 /* ViewController.swift in Sources */,
 				3709E718258796A700620BE6 /* AppDelegate.swift in Sources */,
 				3709E71A258796A700620BE6 /* SceneDelegate.swift in Sources */,
@@ -295,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.barCodeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RAKUTEN_API_URL = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706?format=json&elements=itemName%2CsmallImageUrls&hits=1&imageFlag=1&availability=0&applicationId=1010883188969703189&keyword=";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -314,6 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ShoheiShikanai.barCodeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RAKUTEN_API_URL = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
