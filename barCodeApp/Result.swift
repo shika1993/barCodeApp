@@ -16,10 +16,10 @@ struct Items: Codable{
 }
 
 struct Item: Codable {
-    let smallImageUrls: [SmallImageUrl]
+    let smallImageUrls: [SmallImageUrls]
     let itemName: String
 }
 
-struct SmallImageUrl: Codable {
+struct SmallImageUrls: Codable {
     let imageUrl: String
 }

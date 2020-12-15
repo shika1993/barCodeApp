@@ -33,6 +33,7 @@ class ViewController: UIViewController {
                 }else{
                     do{
                         let result: Result = try self.decoder.decode(Result.self, from: data!)
+                        print(result.Items[0].Item.itemName)
                     }catch let e{
                         print(e.localizedDescription)
                     }
